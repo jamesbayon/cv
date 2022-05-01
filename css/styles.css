@@ -1,0 +1,128 @@
+body {
+  color: #415A6B;
+  background-color: #F6F6F6;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 3.9375rem;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+td {
+  text-align: left;
+  height: 100px;
+  vertical-align: top;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.top-container {
+  margin: 0 auto;
+  padding-top:40px;
+  background-color: #FFC7C7;
+}
+
+.title {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.title-text {
+  margin: 40px auto 0 auto;
+  display: inline-block;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+}
+
+.sub-title-text {
+  margin: 10px auto;
+}
+
+.man-icon {
+  width: 30%;
+  height: 30%;
+  margin-top: 30px;
+}
+
+.middle-container-1 {
+  margin: 0 auto;
+  background-color: #FFE2E2;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.profile {
+  width: 50%;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.about-me {
+  display: inline-block;
+  text-align:left;
+  width: 25%;
+  margin-right: 20px;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  display: inline-block;
+  position: relative;
+  right: 10px;
+  bottom: 85px;
+}
+
+.details {
+  display: inline-block;
+  position: relative;
+  text-align:left;
+  width: 25%;
+  left: 40px;
+}
+
+.middle-container-2, .middle-container-4 {
+  margin: 0 auto;
+  background-color: #F6F6F6;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.middle-container-3, .middle-container-5 {
+  margin: 0 auto;
+  background-color: #FFE2E2;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.experience {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.education, .career {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 30px;
+  padding-bottom: 40px;
+  text-align:left;
+}
+
+.education img {
+  width: 100px;
+  height: 100px;
+}
