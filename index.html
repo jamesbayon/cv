@@ -1,167 +1,111 @@
+
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>James Bayon-on Interactive Resume</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Merriweather:wght@300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
-  <link rel="icon" type="image/x-icon" href="resources/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Bayon-on - QA Engineer Resume</title>
+    <style>
+        @page { size: A4; margin: 0.75in; background-color: #ffffff; }
+        body { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.3; color: #000000; font-size: 10pt; }
+        header { text-align: center; margin-bottom: 15px; }
+        h1 { margin: 0 0 5px 0; font-size: 22pt; text-transform: uppercase; letter-spacing: 1px; font-weight: bold; }
+        .contact-info { font-size: 10pt; margin-bottom: 15px; }
+        .contact-info a { color: #000000; text-decoration: none; }
+        h2 { font-size: 11pt; text-transform: uppercase; border-bottom: 1px solid #000000; padding-bottom: 2px; margin-top: 15px; margin-bottom: 8px; font-weight: bold; }
+        p { margin-top: 0; margin-bottom: 8px; text-align: justify; }
+        .job-item { margin-bottom: 12px; }
+        .job-header { display: table; width: 100%; margin-bottom: 2px; }
+        .job-header-left { display: table-cell; text-align: left; }
+        .job-header-right { display: table-cell; text-align: right; font-weight: bold; vertical-align: top; }
+        .company { font-weight: bold; font-size: 10.5pt; }
+        .job-title { font-style: italic; }
+        ul { margin-top: 2px; padding-left: 20px; margin-bottom: 0; }
+        li { margin-bottom: 4px; text-align: justify; }
+    </style>
 </head>
-
 <body>
-  <div class="top-container">
-    <div class="title">
-      <h1 class="title-text">James Bayon-on</h1>
-      <h2 class="sub-title-text"><em>Online Resume</em></h2>
-      <img class="man-icon" src="resources/images/man-icon.png" alt="man-icon">
+    <header>
+        <h1>James Bayon-on</h1>
+        <div class="contact-info">
+            +81 90 1239 3486 | jamesmbayonon@gmail.com | <a href="https://www.linkedin.com/in/james-bayonon/">linkedin.com/in/james-bayonon/</a>
+        </div>
+    </header>
+    <h2>Qualifications</h2>
+    <ul>
+        <li>ISTQB Foundation Level (CTFL) certified with over 10 years of experience driving software quality across web, mobile, and embedded platforms.</li>
+        <li>Proficient in test strategy design, test plan creation, and execution of automated suites using Playwright and Selenium.</li>
+        <li>Experienced in leading and mentoring global cross-functional teams, collaborating effectively with both onsite and offshore (Vietnam) engineering personnel.</li>
+        <li>Strong communication skills with Business-level English and JLPT N3 Japanese fluency.</li>
+        <li>Actively leveraging AI to create tools and strategies that reduce manual test design and execution efforts by at least 20%, while continuously exploring new AI applications in software testing.</li>
+    </ul>
+    <h2>Technical Skills</h2>
+    <p><strong>Testing:</strong> End-to-End (E2E), Functional/Non-Functional, Integration, System, Cross-Platform, Defect Management & RCA<br>
+    <strong>Automation & API:</strong> Playwright, Cypress, Selenium, Postman, Bruno, Vector INCA, CANoe<br>
+    <strong>Programming:</strong> Python, Java, JavaScript, Bash/Zsh, C, HTML, PHP, XML, JSON<br>
+    <strong>DevOps, Cloud & Tools:</strong> Jira, Git, GitHub, SVN, Jenkins, Docker, GCP Log, Practitest, Confluence, Miro, AI (ChatGPT/Claude)<br>
+    <strong>Domain:</strong> Agile/Scrum, E-commerce Platforms, Embedded Platforms</p>
+    <h2>Professional Experience</h2>
+    <div class="job-item">
+        <div class="job-header">
+            <div class="job-header-left"><span class="company">Rakuten Group Inc.</span><br><span class="job-title">Senior Software Quality Assurance Engineer</span></div>
+            <div class="job-header-right">2024 &ndash; Present</div>
+        </div>
+        <ul>
+            <li>Created comprehensive test plans and test designs for high-traffic travel web applications spanning 10+ services in both domestic and global markets.</li>
+            <li>Contributed to the early adoption of AI in software testing across the organization, achieving a 30% increase in coverage and reducing debugging time by 20% through AI-assisted automated script fixes.</li>
+            <li>Introduced a test specification review process improvement that reduced the test spec feedback rate by 26%.</li>
+            <li>Conducted Root Cause Analyses (RCA) for production incidents and implemented preventive actions to eliminate recurring issues.</li>
+            <li>Led a large-scale production security rollout project across 47 applications, achieving zero production defects.</li>
+            <li>Delivered a multi-domain video platform migration on schedule across cross-functional teams with zero production defects.</li>
+        </ul>
     </div>
-  </div>
-
-  <div class="middle-container-1">
-    <div class="profile">
-      <h2>Profile</h2>
-      <div class="about-me">
-        <h3>About me</h3>
-        <p>I am a well-rounded software engineer.</p>
-        <p>Experienced in software development, software testing, and team management.</p>
-        <p>Able to speak English language fluently and intermediate Japanese(N3).</p>
-        <p>Has high attention to detail, willing to adapt, and delivers quality work.</p>
-      </div>
-      <img class="profile-img" src="resources/images/james.png" alt="profile-img">
-      <div class="details">
-        <h3>Details</h3>
-        <p><strong>Name:</strong></p>
-        <p>James Bayon-on</p>
-        <p><strong>Age:</strong></p>
-        <p>28</p>
-        <p><strong>Location:</strong></p>
-        <p>Cebu, Philippines</p>
-        <p><strong>Hobbies:</strong></p>
-        <p>Staying active, Spending time with family</p>
-      </div>
+    <div class="job-item">
+        <div class="job-header">
+            <div class="job-header-left"><span class="company">Bosch Engineering K.K / TechnoPro Engineering Inc.</span><br><span class="job-title">Software Systems Designer</span></div>
+            <div class="job-header-right">2023 &ndash; 2024</div>
+        </div>
+        <ul>
+            <li>Led testing for complex automotive ECUs, coordinating technical requirements between Japanese stakeholders and global engineering teams in Germany, India, and Vietnam.</li>
+            <li>Developed custom JavaScript utility tools that automated manual data validation, improving the accuracy of engineering deliverables by 15%.</li>
+            <li>Established clear bug-tracking workflows and communication guidelines, which significantly improved defect turnaround times across distributed development teams.</li>
+        </ul>
     </div>
-  </div>
-  <div class="middle-container-2">
-    <div class="experience">
-      <h2>Experience</h2>
-      <div class="education">
-        <h3>Education</h3>
-        <table class="education-table">
-          <tbody>
-            <tr>
-              <td>
-                <p><strong>University of the Philippines, Cebu</strong></p>
-                <p>2010-2014</p>
-                <img src="resources/images/up-logo.png" alt="up-logo">
-              </td>
-              <td>
-                <br>
-                <p><strong>Bachelor of Science in Computer Science</strong></p>
-                <p>Studied OOP, Data structures, Software design and engineering, and project management. Mainly used C and Java for programming but had some experience with HTML, CSS, SQL, and PHP. Also took an elective for Artificial Intelligence.</p>
-                <p>Thesis was about using metaheuristic algorithms to solve the N-Queens problem. Used genetic algorithm, particle swarm optimization, and artificial bee colony algorithm to come up with solutions.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p><strong>Cebu City National Science Highschool</strong></p>
-                <p>2006-2010</p>
-                <img src="resources/images/ccnshs-logo.png" alt="ccnshs-logo">
-              </td>
-              <td>
-                <br>
-                <p><strong>Highschool</strong></p>
-                <p>During highschool our class was selected to learn robotics. There weren't many kits available and we got lucky that we were selected. This is where my interest in programming started. I enjoyed building the robot as well as creating the program for it to overcome obstacles set during competitions.</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <hr>
-      <div class="career">
-        <h3>Career</h3>
-        <table class="career-table">
-          <tbody>
-            <tr>
-              <td>
-                <p><strong>CSAM - The eHealth Company</strong></p>
-                <p>2021 - Present</p>
-                <p>Cebu, Philippines</p>
-              </td>
-              <td>
-                <br>
-                <p><strong>Fulltime - Senior Quality Assurance Engineer</strong></p>
-                <p>Working as a senior quality assurance engineer on a Laboratory Information Management System Project based in Sweden.</p>
-                <p>Exposed to agile methodologies with slack, JIRA, Microsoft teams, SQL, and some shell-scripting.</p>
-                <p>Did some self-learning on test automation processes with selenium/cypress/appium.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p><strong>Advanced World Solutions, Inc.</strong></p>
-                <p>2018 - 2021</p>
-                <p>Nara, Japan (2018 - 2020)</p>
-                <p>Cebu, Philippines (2021)</p>
-              </td>
-              <td>
-                <br>
-                <p><strong>Fulltime - Senior Associate Software Engineer</strong></p>
-                <p>One of the team leads for a printer maintenance project based in Japan. Work involves team management like creating WBS, monitoring progress, process improvement, and reporting directly to Japanese clients.</p>
-                <p>Aside from doing management tasks - I also functioned as a scope lead for new features or modification requests. Still doing code, test, and documentation independently for bug fixes and special requests.</p>
-                <p>Worked with the full development cycle from creating requirements definition, detailed design, test plan, test execution, to quality assurance and maintenance.</p>
-                <p>Technologies used were C, javascript, xml, flashdevelop, shell-scripting, subversioning, and a lot of microsoft excel for documentation.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p><strong>Advanced World Solutions, Inc.</strong></p>
-                <p>2017 - 2018</p>
-                <p>Nara, Japan</p>
-              </td>
-              <td>
-                <br>
-                <p><strong>Fulltime - Associate Software Engineer</strong></p>
-                <p>Worked as an Onsite Bridge Software Engineer (BSE) at the client's site in Nara, Japan. Tasked with software maintenance on a printer's UI panel which includes new features and modifying existing ones.</p>
-                <p>Software development was still the main job but lots of experience on software testing on the actual product which was not possible with emulators.</p>
-                <p>Technologies used were C, javascript, xml, flashdevelop, shell-scripting, subversioning, and a lot of microsoft excel for documentation.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p><strong>Advanced World Solutions, Inc.</strong></p>
-                <p>2014 - 2017</p>
-                <p>Cebu, Philippines</p>
-              </td>
-              <td>
-                <br>
-                <p><strong>Fulltime - Senior Assistant Software Engineer / Assistant Software Engineer</strong></p>
-                <p>Worked as a developer for a printer panel project at the Offshore office located at Cebu. This is where i learned the ropes on software development and testing in the actual industry.</p>
-                <p>Wrote code for new features or modification with review from scope lead. Created documents and presented them to Japanese clients during design reviews. Quality is the focus in everything we do.</p>
-                <p>Technologies used were C, javascript, xml, flashdevelop, shell-scripting, subversioning, and a lot of microsoft excel for documentation.</p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p><strong>DELONIX Marketing Corp.</strong></p>
-                <p>2013</p>
-                <p>Cebu, Philippines</p>
-              </td>
-              <td>
-                <br>
-                <p><strong>OJT - Wordpress developer / SEO </strong></p>
-                <p>On-the-job-trainee for an Australian company which had Wordpress website creation and Search Engine Optimization (SEO) as one of their services.</p>
-                <p>Had a chance to host wordpress sites as well as modification on the pages and plugins. For SEO work, we mainly had to contact the webmaster for a relevant site and asked if they could link important keywords to clients.</p>
-                <p>Technologies used were wordpress, HTML, CSS, javascipt, PHP.</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
+    <div class="job-item">
+        <div class="job-header">
+            <div class="job-header-left"><span class="company">Omda The eHealth Company</span><br><span class="job-title">Senior Software Quality Assurance Engineer</span></div>
+            <div class="job-header-right">2021 &ndash; 2023</div>
+        </div>
+        <ul>
+            <li>Directed functional and non-functional UI/E2E testing for large-scale healthcare information systems, standardizing defect reporting templates in Jira to accelerate ticket turnaround times.</li>
+            <li>Prototyped UI test automation frameworks using Cypress and Selenium within a Java and JavaScript environment, establishing the technical foundation for future CI/CD pipeline integration.</li>
+            <li>Partnered with global product teams in Sweden as a Certified Scrum Master assistant, optimizing Agile workflows to clarify functional requirements for the testing team.</li>
+        </ul>
     </div>
-  </div>
-  <div class="middle-container-3">
-
-  </div>
-
+    <div class="job-item">
+        <div class="job-header">
+            <div class="job-header-left"><span class="company">Advanced World Solutions, Inc.</span><br><span class="job-title">Senior R&D Software Engineer / QA Lead</span></div>
+            <div class="job-header-right">2014 &ndash; 2021</div>
+        </div>
+        <ul>
+            <li>Led a 5-member QA team through complex integration cycles, maintaining zero critical project delays for embedded software releases over 3 years.</li>
+            <li>Streamlined quality-gate processes and Linux-based build deployments using Bash, preventing critical regressions in the client's master release branch.</li>
+            <li>Mentored junior engineers and delivered high-quality technical documentation; awarded the Project Technical Award for exceptional quality management.</li>
+        </ul>
+    </div>
+    <h2>Certifications</h2>
+    <ul>
+        <li>Professional Scrum Master I (PSM I) &ndash; Scrum.org (2023)</li>
+        <li>Certified Entry-level Python Programmer (PCEP-30-01) &ndash; Python Institute (2022)</li>
+        <li>Certified Entry-level JavaScript Programmer (JSE-40-01) &ndash; JS Institute (2022)</li>
+        <li>ISTQB Certified Tester Foundation Level (CTFL) (2016)</li>
+        <li>Japanese-Language Proficiency Test (JLPT) N3 (2016)</li>
+        <li>PhilNits Fundamental Information Technology Engineer (FE) (2015)</li>
+    </ul>
+    <h2>Education</h2>
+    <div class="job-header">
+        <div class="job-header-left"><span class="company">University of the Philippines, Cebu</span><br><span class="job-title">Bachelor of Science in Computer Science, <em>Cum Laude</em></span></div>
+        <div class="job-header-right">Graduated 2014</div>
+    </div>
 </body>
-
 </html>
